@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+
+        let meses = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio",
+         "agosto", "septiembre", "octubre", "noviembre", "diciembre"
+    ]
+        let entrada = prompt("ingrese el indice del mes: ")
+        
+        for (let index = 0; index < meses.length; index++) {
+            const mes = meses[index];
+            if (entrada == index + 1) {
+                console.log(mes)
+            }
+        }
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        /*Crear un programa que recibe las notas de un alumno, todos los números deben ser naturales
+        <11. Debe calcular el promedio. Por último imprimir en pantalla si el valor de media es < 5
+        “Reprobado”,  entre 6 y 8 “Aprobado” y si es mayor a 8 “Sobresaliente”*/
+
+        function calcularPromedio(nota1, nota2, nota3){
+            var promedio = (nota1 + nota2 + nota3) / 3
+            Math.ceil(promedio)
+
+            if(Math.ceil(promedio) > 8){
+                console.log('Sobresaliente')
+            }else if(Math.ceil(promedio) >= 6 && promedio <= 8){
+                console.log('Aprobado')
+            }else if(Math.ceil(promedio) <= 5){
+                console.log('Reprobado')
+            }
+
+        }
+        calcularPromedio(6, 6, 1)
+    </script>
+</body>
+</html>
