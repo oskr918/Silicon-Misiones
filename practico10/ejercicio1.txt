@@ -1,0 +1,69 @@
+a - Describe dos usos o funciones que proporciona la declaración DOCTYPE en una página web.
+
+la etiqueta OCTYPE ayuda a un navegador web a visualizar correctamente la página web.
+También identifica la versión de HTML empleada en la página web.
+
+b - Para que se utilizan las siguientes etiquetas:
+
+<head> </head> 
+
+El elemento HTML <head> provee información general (metadatos) acerca del documento, 
+incluyendo su título y enlaces a scripts y hojas de estilos.
+
+<title> </title>
+
+Esta etiqueta se utiliza para darle un titulo a nuesrtro documento.
+
+<meta> 
+ Esta etiqueta sirve para aportar información sobre el documento.
+
+<style> </style>
+
+Esta etiqueta sirve para dar informacion sobre los estilos.
+
+<body> </body>
+
+Esta etiqueta representa el contenido de un documento HTML.
+
+<h1>,<h2>,<h3>,<h4>,<h5>,<h6>
+
+estas etiquetas son encabezados HTML cuyo uso más común es marcar el título y subtitulos de una página web.
+
+<a>
+Esta etiqueta sirve para creae un enlace a otras páginas.
+
+<strong>
+Esta etiqueta es el apropiado para marcar con especial énfasis las partes más importantes de un texto
+
+<br>
+Esta etiqueta sirve para dar un salto de linea.
+
+<ul>
+Esta etiqueta sirve para agrupar una lista desordenada.
+
+<li>
+Esta etiqueta sirve para agregar un item a una lista.
+
+<p>
+Esta etiqueta sirve para agregar un parrafo.
+
+<span>
+Esta etiqueta sirve para aplicar estilo al texto o agrupar elementos en línea.
+
+<table> </table>
+Esta etiqueta se usa para crear una tabla.
+
+<tr> </tr>
+Esta etiqueta define una fila de celdas en una tabla.
+
+<td> </td>
+define la celda de una tabla que contiene datos.
+
+<img>
+Sirve para Mostrar un imagen.
+
+c- La etiqueta <script> puede ir dentro de las etiquetas de de <body> o <head>, hay alguna
+diferencia donde pueda ir?
+
+La diferencia de colocar el script en el head o body es el orden de carga de los achivos si lo colocamos en el 
+head se ejecutara el script antes de cargar los demas archivos.
